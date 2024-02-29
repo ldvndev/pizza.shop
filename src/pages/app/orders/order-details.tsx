@@ -35,7 +35,7 @@ export function OrderDetails({ orderId, open }: OrderDetailsProps) {
   return (
     <DialogContent>
       <DialogHeader>
-        <DialogTitle>Pedido: 1209sdf09</DialogTitle>
+        <DialogTitle>Pedido: {orderId}</DialogTitle>
         <DialogDescription>Detalhes do pedido</DialogDescription>
       </DialogHeader>
 
